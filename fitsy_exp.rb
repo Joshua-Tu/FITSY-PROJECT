@@ -1,4 +1,7 @@
-require_relative "fitsy_input.rb"
+require_relative 'fitsy_input.rb'
+require 'colorize'
+require 'colorized_string'
+
 pf_list = FitsyInput.pf_list
 pf_1 = FitsyInput.pf_1
 pf_2 = FitsyInput.pf_2
@@ -35,7 +38,7 @@ pf_30= FitsyInput.pf_30
 #pull out the values from the hash exp elements, and form an array with them, so that we can do the filtering
 puts "Which experience group you want to see?\n1.Junior(0~2years) 2.Advanced(2~5years) 3. Senior(over 5years) "
 print "Type your option number: "
-exp_option = gets.chomp.to_i
+exp_option = gets.chomp
 puts "\n"
 pf_list_junior = []
 pf_list_advanced = []
@@ -50,21 +53,38 @@ for i in 0...pf_list.size
     end
 end
 
-puts "     Name                Skillset                Followers          Softskills         "
-if exp_option == 1
+title = " "*5 +"Name"+" "*16 + "Skillset" +" "*17 +"Followers" + " "*10 + "Softskills" + " "*9
+puts title.colorize(:red).bold
+
+if exp_option == "1"
     for j in 0...pf_list_junior.size
-        puts "    #{pf_list_junior[j][:name]}        #{pf_list_junior[j][:skillset]}                #{pf_list_junior[j][:followers]}           #{pf_list_junior[j][:softskills]}   "
+        content = " "*5 +"#{pf_list_junior[j][:name]}"+" "*16 + "#{pf_list_junior[j][:skillset]}" +" "*17 +"#{pf_list_junior[j][:followers]}" + " "*10 + "#{pf_list_junior[j][:softskills]}" + " "*9
+        if j % 2 == 0
+            puts content.colorize(:blue).on_light_green
+        else
+            puts content.colorize(:blue).on_light_yellow
+        end
     end
 end
 
-if exp_option == 2
+if exp_option == "2"
     for j in 0...pf_list_advanced.size
-        puts "    #{pf_list_advanced[j][:name]}        #{pf_list_advanced[j][:skillset]}            #{pf_list_advanced[j][:followers]}              #{pf_list_advanced[j][:softskills]}   "
+        content =  " "*5 +"#{pf_list_advanced[j][:name]}"+" "*16 + "#{pf_list_advanced[j][:skillset]}" +" "*17 +"#{pf_list_advanced[j][:followers]}" + " "*10 + "#{pf_list_advanced[j][:softskills]}" + " "*9
+        if j % 2 == 0
+            puts content.colorize(:blue).on_light_green
+        else
+            puts content.colorize(:blue).on_light_yellow
+        end
     end
 end
 
-if exp_option == 3
+if exp_option == "3"
     for j in 0...pf_list_senior.size
-        puts "    #{pf_list_senior[j][:name]}        #{pf_list_senior[j][:skillset]}            #{pf_list_senior[j][:followers]}              #{pf_list_senior[j][:softskills]}   "
+        content = " "*5 +"#{pf_list_senior[j][:name]}"+" "*16 + "#{pf_list_senior[j][:skillset]}" +" "*17 +"#{pf_list_senior[j][:followers]}" + " "*10 + "#{pf_list_senior[j][:softskills]}" + " "*9
+        if j % 2 == 0
+            puts content.colorize(:blue).on_light_green
+        else
+            puts content.colorize(:blue).on_light_yellow
+        end
     end
 end
