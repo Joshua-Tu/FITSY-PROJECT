@@ -50,21 +50,21 @@ for i in 0...pf_list.size
     end
 end
 
-puts "     Name                Skillset                Followers          Softskills         "
+puts " "*5 +"Name"+" "*16 + "Skillset" +" "*17 +"Followers" + " "*10 + "Softskills" + " "*9
 if exp_option == 1
     for j in 0...pf_list_junior.size
-        puts "    #{pf_list_junior[j][:name]}        #{pf_list_junior[j][:skillset]}                #{pf_list_junior[j][:followers]}           #{pf_list_junior[j][:softskills]}   "
+        puts " "*5 +"#{pf_list_junior[j][:name]}"+" "*16 + "#{pf_list_junior[j][:skillset]}" +" "*17 +"#{pf_list_junior[j][:followers]}" + " "*10 + "#{pf_list_junior[j][:softskills]}" + " "*9
     end
 end
 
 if exp_option == 2
     for j in 0...pf_list_advanced.size
-        puts "    #{pf_list_advanced[j][:name]}        #{pf_list_advanced[j][:skillset]}            #{pf_list_advanced[j][:followers]}              #{pf_list_advanced[j][:softskills]}   "
+        puts " "*5 +"#{pf_list_advanced[j][:name]}"+" "*16 + "#{pf_list_advanced[j][:skillset]}" +" "*17 +"#{pf_list_advanced[j][:followers]}" + " "*10 + "#{pf_list_advanced[j][:softskills]}" + " "*9
     end
 end
 
 if exp_option == 3
     for j in 0...pf_list_senior.size
-        puts "    #{pf_list_senior[j][:name]}        #{pf_list_senior[j][:skillset]}            #{pf_list_senior[j][:followers]}              #{pf_list_senior[j][:softskills]}   "
+        puts " "*5 +"#{pf_list_senior[j][:name]}"+" "*16 + "#{pf_list_senior[j][:skillset]}" +" "*17 +"#{pf_list_senior[j][:followers]}" + " "*10 + "#{pf_list_senior[j][:softskills]}" + " "*9
     end
 end
