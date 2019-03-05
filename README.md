@@ -8,6 +8,6 @@
   * Instruction for use
     1. The user can check four types of information of the applicants, which are years of experience, skillset, number of followers, and softskills.
     2. To read information of all the fitness professionals, the user just need to type the following commands in the terminal
-    $ ruby fitsy_ls.rb
+    ''' $ ruby fitsy_ls.rb '''
     ![This is what the users will get](https://avatars3.githubusercontent.com/u/47619573?s=460&v=4)
     3. 
