@@ -49,7 +49,7 @@
   ![Brain_storming](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Evidence%20of%20app%20idea%20brainstorming%20sessions.jpg?raw=true)
   
   * **App Workflow diagram**
-  ![workflow](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/master/pics/Untitled%20Diagram.jpg?raw=true)
+    ![workflow](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/master/pics/fitsy_app_flowchart.jpg?raw=true)
   
   * **Project timeline**
   ![project timeline](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Project%20Timeline.jpg?raw=true)
