@@ -35,6 +35,8 @@ pf_29= FitsyInput.pf_29
 pf_30= FitsyInput.pf_30
 
 title = " "*5 +"Name"+" "*16 + "Skillset" +" "*17 +"Followers" + " "*10 + "Softskills" + " "*9
+puts title.colorize(:red).bold
+
 for n in 0...pf_list.size
     content = " "*5 +"#{pf_list[n][:name]}"+" "*16 + "#{pf_list[n][:skillset]}" + " "*17 +"#{pf_list[n][:followers]}" + " "*10 + "#{pf_list[n][:softskills]}" + " "*9
     if n % 2 == 0
