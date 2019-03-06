@@ -45,15 +45,15 @@
       1.More screening options
       2.User interface for personal trainers
 * **Details of design & planning process**
-  *Evidence of app idea brainstorming sessions
+  * **Evidence of app idea brainstorming sessions**
   ![Brain_storming](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Evidence%20of%20app%20idea%20brainstorming%20sessions.jpg?raw=true)
   
-  *App Workflow diagram
+  * **App Workflow diagram**
   ![workflow](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/master/pics/Untitled%20Diagram.jpg?raw=true)
   
-  *Project timeline
-  ![project timeline]()
-  
-  *Screenshots of Trello board
+  * **Project timeline**
+  ![project timeline](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Project%20Timeline.jpg?raw=true)
+
+  * **Screenshots of Trello board**
   ![Trello Boards](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Trello%20screenshot.png?raw=true)
   
