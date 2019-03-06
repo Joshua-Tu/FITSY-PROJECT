@@ -45,4 +45,11 @@
       2.User interface for personal trainers
 * **Details of design & planning process**
   *Evidence of app idea brainstorming sessions
-  ![fitsy_skillset_input_2](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/fitsy_skillset_3_snapshot.jpg?raw=true)
+  ![Brain_storming](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Evidence%20of%20app%20idea%20brainstorming%20sessions.jpg?raw=true)
+  *App Workflow diagram
+  ![workflow](  )
+  *Project timeline
+  ![project timeline](  )
+  *Screenshots of Trello board
+  ![Trello Boards](https://github.com/Joshua-Tu/FITSY-PROJECT/blob/Josh-Tu/pics/Trello%20screenshot.png?raw=true)
+  
